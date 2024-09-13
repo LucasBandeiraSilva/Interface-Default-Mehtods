@@ -1,9 +1,9 @@
 package model.services;
 
-public class BrazilInterestService implements InterestService {
+public class UsaInterstService implements InterestService {
     private Double interestRate;
 
-    public BrazilInterestService(Double interestRate) {
+    public UsaInterstService(Double interestRate) {
         this.interestRate = interestRate;
     }
 
@@ -11,5 +11,4 @@ public class BrazilInterestService implements InterestService {
     public double getInterestRate() {
         return interestRate;
     }
-
 }
